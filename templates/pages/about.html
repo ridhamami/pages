@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/min.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-my</title>
+</head>
+{% block contener %}
+<body>
+    <div class="conterner11">
+        <div class="con">
+            <div class="h1te">
+                <h1>About-my</h1>
+    
+            </div>
+            <div class="p1te">
+                <p>Dirar's name. Nicknamed Reda, <br> I am in the field of programming <br> since the beginning of 2012. <br> I studied several programming languages <br> such as: html, <br> css, <br> pthon,<br> django,<br> javascript,<br> I am from Algeria,<br> and I work in several fields . <br> and Thanks (+_-).</p>
+            </div>
+            <div class="btn11">
+                <li><a href="{% url 'index' %}">back</a></li>
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock contener %}
+</html>
